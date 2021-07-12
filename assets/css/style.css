@@ -3,10 +3,55 @@
     margin: 0;
     box-sizing: border-box;
 }
+.bg-header{
+   
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+
 body{
     font-family: 'Cabin', Bold;
+    background-color: #000000;
+    
 }
-¨
+.icono{
+    height: 15px;
+    align-content: center;
+    text-align: center;
+    
+    color: ivory;
+}
+.iconors{
+    height: 35px;
+    align-content: center;
+    text-align: center;
+    
+    color: ivory;
+}
+.hr{
+    border-top: 1px solid rgb(73, 235, 241);
+    height: 2px;
+    width: 92%;
+    align-content: center;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    
+    
+    
+
+}
+.verticalLine { border-left: thick solid #ff0000; 
+}
+
+
+
+.header .nav {
+    background-color: transparent !important;
+    position: fixed;
+    top: 0;
+  }
 .nav2{
     color:white;
     
@@ -26,28 +71,30 @@ body{
 }
 
 .h1{
-    color: #000000;
+    color: #ffffff;
     font-family: 'Cabin', Bold;
-    font-size: 40pt;
-    text-align: left;
-    padding-top: 1em;
-    padding-bottom: 2rem;
+    font-size: 20pt;
+    text-align:center;
+    padding-top: 0rem;
+   
 
 }
 .h2{
-    color: #373a3c;
+    color: #ffffff;
     font-family: 'Cabin', Bold;
-    font-size: 30pt;
+    font-size: 18pt;
     text-align: left;
+    padding-right: 2rem;
     padding-left: 0mm;
     padding-bottom: 0rem;
 
 }
 .h3{
-    color: #373a3c;
+    color: #ffffff;
     font-family: 'Cabin', Bold;
     font-size: 13pt;
     text-align: left;
+    padding-right: 2rem;
     padding-bottom: 0rem;
 
 }
@@ -59,7 +106,7 @@ body{
 
 }
 .h5{
-    color: #1c7cd5;
+    color: #000000;
     font-family: 'Open Sans', sans-serif;
     font-size: 10pt;
     padding-bottom: 0rem;
@@ -74,8 +121,7 @@ body{
     font-size: 15px ;
 }
 .pie{
-    background-color: #e83e8c;
+    background-color: #2199a5;
     align-content: unset;
-    width: 100%;
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
 }
